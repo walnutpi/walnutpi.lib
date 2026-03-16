@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "walnutpi"
-version = "1.0.3"
+version = "1.1.0"
 authors = [
     {name = "sc-bin", email = "3335447573@qq.com"},
 ]
@@ -19,7 +19,6 @@ classifiers = [
     "Programming Language :: Python :: 3",
 ]
 keywords = ["walnutpi", "embedded", "library"]
-dependencies = ["walnutpi-npu"]
 
 [project.urls]
 Homepage = "https://github.com/sc-bin/"
