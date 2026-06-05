@@ -5,8 +5,7 @@ if "walnutpi-2b" in __model:
     import walnutpi_isp as isp
     
 if "CyberCAM" in __model:
-    from walnutpi_kpu import YOLO11
-    import walnutpi_kpu as kpu
+    from walnutpi_kpu import kpu
     import k230_sensor as Sensor
-    import walnutpi_imgxfer as Imgxfer
+    import walnutpi_imgxfer as IDE
     import k230_display as Display
