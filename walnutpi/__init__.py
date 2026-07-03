@@ -8,5 +8,5 @@ if "CyberCAM" in __model:
     from walnutpi_kpu import kpu
     import k230_sensor as Sensor
     import walnutpi_imgxfer as IDE
-    import k230_display as Display
+    import Display
     from walnutpi_imu import imu, direction
